@@ -1,5 +1,9 @@
 # Solució T08
-## Activitats
+## windos 11
+
+![w11](img\Windows-11-1-5.jpg)
+
+### Activitats
 
 1. Seguiu les instruccions de l'enllaç que trobareu a https://www.eicar.org per a obtenir una còpia del test EICAR.
 
