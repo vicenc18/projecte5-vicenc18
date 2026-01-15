@@ -5,7 +5,7 @@
 
 El navegador web de Windows porta un tipus de detecció de malware i/o de llocs web potencialment perillosos i blocar la baixada de l'arxiu, anomenada Smart Screen. Altres navegadors com Chrome, Firefox, Opera, etc. disposen de tecnologies Cal desactivar aquesta protecció antimalware per a fer proves:
 
-![imatge](img\EdgeSmartScreen.png)
+![edge](img\EdgeSmartScreen.png)
 
 Desactivar Smart Screen
 
@@ -60,56 +60,73 @@ Normalment enviaria les dades xifrades a un servidor extern (IP i port) però pe
 
 6. Com és un ransomware de prova, ens permet desxifrar els fitxers. Torneu a obrir PowerShell i executeu l'script amb la següent ordre per desxifrar els fitxers:
 
+``` bash
 .\PSRansom.ps1 -d C:\Users\%USERNAME%\Documents -k clau
-Ara, activeu la protecció contra ransomware. Comproveu que la carpeta "Documents" està protegida i torneu a executar l'script.
+```
 
-Comproveu que els fitxers de la carpeta "Documents" NO han estat xifrats. Observa l'alerta que es genera a l'antimalware.
+7. Ara, activeu la protecció contra ransomware. Comproveu que la carpeta "Documents" està protegida i torneu a executar l'script.
 
-Atacs de Ransomware: WannaCry
-Llegiu la informació sobre WannaCry https://www.avg.com/es/signal/wannacry-ransomware-what-you-need-to-know i busqueu informació als enllaços dels projectes antiransomware per contestar les preguntes següents:
+8. Comproveu que els fitxers de la carpeta "Documents" NO han estat xifrats. Observa l'alerta que es genera a l'antimalware.
 
-Expliqueu quins són els factors que fan que WannaCry es propagui tan ràpid. Expliqueu què vol dir.
+## Atacs de Ransomware: WannaCry
 
-Quina vulnerabilitat en concret es fa servir? Busqueu el CVE associat. És molt greu?
+1. Llegiu la informació sobre WannaCry https://www.avg.com/es/signal/wannacry-ransomware-what-you-need-to-know i busqueu informació als enllaços dels projectes antiransomware per contestar les preguntes següents:
 
-S'ha de pagar el rescat demanat? Per què? Busqueu per internet a veure si trobeu alguna empresa negociadora de rescats i com funciona. Això s'està fent, tot i que no se sol recomanar...
+2. Expliqueu quins són els factors que fan que WannaCry es propagui tan ràpid. Expliqueu què vol dir.
 
-Quines mesures podem aplicar si volem PREVENIR un atac de Ransomware abans que passi?
+3. Quina vulnerabilitat en concret es fa servir? Busqueu el CVE associat. És molt greu?
 
-Quines mesures aplicarem si JA HEM SOFERT un atac de WannaCry i no hem aplicat les mesures de prevenció o ho hem fet parcialment?
+4. S'ha de pagar el rescat demanat? Per què? Busqueu per internet a veure si trobeu alguna empresa negociadora de rescats i com funciona. Això s'està fent, tot i que no se sol recomanar...
 
-Prova pràctica de WannaCry
+5. Quines mesures podem aplicar si volem PREVENIR un atac de Ransomware abans que passi?
+
+6. Quines mesures aplicarem si JA HEM SOFERT un atac de WannaCry i no hem aplicat les mesures de prevenció o ho hem fet parcialment?
+
+## Prova pràctica de WannaCry
+__________________________________________________________________
+
 ATENCIÓ: Els següent pas és perillós. Seguiu les instruccions de forma estricta.
 
 MAI ho heu de fer amb un equip de producció (màquina física o de la feina o de les pràctiques). En cas contrari, es pot incórrer en delictes tipificats al codi Penal amb penes que poden suposar multes i fins i tot presó.
 
 Es declina tota responsabilitat en el cas que aquesta informació sigui utilitzada amb finalitats il·lícites o delictives. També es declina tota responsabilitat en cas de destrucció total o parcial de dades per fer-ho en un entorn diferent de l'indicat.
+_____________________________________________________________
 
-Feu una instantània o snapshot de la màquina virtual, anomenada "Abans del virus".
+1. Feu una instantània o snapshot de la màquina virtual, anomenada "Abans del virus".
 
-Poseu alguns arxius reals (els podeu crear o baixar d'Internet)en una carpeta a dins de Documents:
+2. Poseu alguns arxius reals (els podeu crear o baixar d'Internet)en una carpeta a dins de Documents:
 
 Algun document de text (.txt)
-Algunes imatges (.jpg, .png)
-Algun documents de Word (.docx)
-Algun arxiu PDF (.pdf)
-Un fitxer comprimit amb els arxius anteriors (.zip)
-Un fitxer compromit amb els arxius anteriors (.zip) però protegit amb contrasenya.
-Descarregueu de https://github.com/ytisf/theZoo el malware de tipus Ranswomware "WannaCry".
 
-Descomprimiu el .zip que està protegit amb contrasenya. L'antimalware no pot descomprimir el fitxer per mirar a dins perquè té contrasenya. La contrasenya és "infected". Un cop descomprimit, executeu el fitxer .exe de WannaCry i observeu què passa.
+Algunes imatges (.jpg, .png)
+
+Algun documents de Word (.docx)
+
+Algun arxiu PDF (.pdf)
+
+Un fitxer comprimit amb els arxius anteriors (.zip)
+
+Un fitxer compromit amb els arxius anteriors (.zip) però protegit amb contrasenya.
+
+3. Descarregueu de https://github.com/ytisf/theZoo el malware de tipus Ranswomware "WannaCry".
+
+4. Descomprimiu el .zip que està protegit amb contrasenya. L'antimalware no pot descomprimir el fitxer per mirar a dins perquè té contrasenya. La contrasenya és "infected". Un cop descomprimit, executeu el fitxer .exe de WannaCry i observeu què passa.
 
 Comproveu si el vostre antimalware el detecta i quin missatge dóna.
+
 Si no detecta res, mireu d'escanejar el fitxer amb botó dret, escollir opció analitzar.
+
 Aneu amb compte, és un virus real.
-Desactivem les proteccions en temps real de l'antimalware i tornem a descomprimir el fitxer.
 
-Finalment, envieu un fitxer .ZIP que NO tingui contrasenya (si no no es pot escanejar) a https://www.virustotal.com i https://opentip.kaspersky.com/ per comprovar quins antivirus dels que prova detecten virus al fitxer i què detecten. Indiqueu quins són els que no ho fan.
+5. Desactivem les proteccions en temps real de l'antimalware i tornem a descomprimir el fitxer.
 
-Ara, a la màquina virtual, amb interfície de xarxa desconnectada, sense tenir cap carpeta compartida ni tenir Guest Additions:
+6. Finalment, envieu un fitxer .ZIP que NO tingui contrasenya (si no no es pot escanejar) a https://www.virustotal.com i https://opentip.kaspersky.com/ per comprovar quins antivirus dels que prova detecten virus al fitxer i què detecten. Indiqueu quins són els que no ho fan.
 
-Desactiveu l'antimalware
-Executeu l'executable WannaCry.
-Documenteu el missatge on es demana el rescat.
-Comproveu quins fitxers s'han xifrat. Afecta a tots els fitxers o només a alguns tipus?
-Un cop heu documentat aquesta part, apagueu la màquina virtual i torneu a l'instantània "Abans del virus".
+7. Ara, a la màquina virtual, amb interfície de xarxa desconnectada, sense tenir cap carpeta compartida ni tenir Guest Additions:
+
+- Desactiveu l'antimalware
+- Executeu l'executable WannaCry.
+- Documenteu el missatge on es demana el rescat.
+- Comproveu quins fitxers s'han xifrat. Afecta a tots els fitxers - o només a alguns tipus?
+
+ Un cop heu documentat aquesta part, apagueu la màquina virtual i torneu a l'instantània "Abans del virus".
