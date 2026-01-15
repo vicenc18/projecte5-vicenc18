@@ -1,7 +1,7 @@
 # Solució T08
 ## windos 11
 
-![w11](img\Windows-11-1-5.jpg)
+![w11](img\windosws.png)
 
 ### Activitats
 
