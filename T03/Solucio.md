@@ -14,3 +14,20 @@ sudo apt install vsdtpd
 cp /etc/vsftpd.conf /etc/vsftpd.bak
 ```
 ![](img\cpftp.png)
+
+## 3 Archiu de configuracio
+Habilitem la opcio anonymous_enable (yes) i reyniciem el servei
+
+![yes](img\yes.png)
+
+![restart](img\restart.png)
+
+## 4. FTP Anonim
+Comprovar que la carpeta "/srv/ftp" s'ha creat, i quins permisos te
+Per punlicar harxius, ser descargats, cal copiarlos en acesta carpeta òbiament es pot crar una estructura de carpeta dins.
+``` bash
+tree  /rsv/
+```
+![carpeta](img\carpeta.png)
+
+## 5.conexio al client
