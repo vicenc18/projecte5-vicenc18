@@ -30,8 +30,6 @@ tree  /rsv/
 ```
 ![carpeta](img\carpeta.png)
 
-![anonymous](img\anonymous.png)
-
 ## 5.conexio al client
 ### 1 Instalar el ftp en el client 
 
@@ -43,5 +41,16 @@ sudo apt install vsdtpd
 ens conectem emb els usuarirs que volem
 
 ``` bash
-sudo apt install vsdtpd
+sudo apt ftp 192.168.56.101
 ```
+![anonymous](img\anonymous.png)
+
+## 6 ftp autinticat
+Configurem la via de l'accés FTP, dels usuaris, I auran de acedir amb les seves cradencials 
+
+
+![autenticat](img\autenticat.png)
+
+![prova1](img\prova1.png)
+
+## 7 engavinat dels usuaris
