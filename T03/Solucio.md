@@ -30,4 +30,18 @@ tree  /rsv/
 ```
 ![carpeta](img\carpeta.png)
 
+![anonymous](img\anonymous.png)
+
 ## 5.conexio al client
+### 1 Instalar el ftp en el client 
+
+``` bash
+sudo apt install vsdtpd
+```
+![install ftp](img\installftp.png)
+
+ens conectem emb els usuarirs que volem
+
+``` bash
+sudo apt install vsdtpd
+```
