@@ -54,3 +54,11 @@ Configurem la via de l'accés FTP, dels usuaris, I auran de acedir amb les seves
 ![prova1](img\prova1.png)
 
 ## 7 engavinat dels usuaris
+
+Serveix perque els usuaris locals no puguin sortir de la seva carpeta en connectar-se pel ftp
+
+![local user](img\localuser.png)
+
+![/etc](img\etc.png)
+
+## 8 Aspectes de seguretat
