@@ -88,8 +88,7 @@ Set-ExecutionPolicy -ExecutionPolicy unrestricted
 .\PSRansom.ps1 -e C:\Users\%USERNAME%\Documents -s 127.0.0.1 -p 80 -x
 ```
 
-
-
+![](img/ultimaram.png)
 
 ## Atacs de Ransomware: WannaCry
 
@@ -106,22 +105,22 @@ Set-ExecutionPolicy -ExecutionPolicy unrestricted
 6. uines mesures aplicarem si JA HEM SOFERT un atac de WannaCry i no hem aplicat les mesures de prevenció o ho hem fet parcialment?
 
 7. Prova pràctica de WannaCry
-ATENCIÓ: Els següent pas és perillós. Seguiu les instruccions de forma estricta.
 
-8. MAI ho heu de fer amb un equip de producció (màquina física o de la feina o de les pràctiques). En cas contrari, es pot incórrer en delictes tipificats al codi Penal amb penes que poden suposar multes i fins i tot presó.
+8. Feu una instantània o snapshot de la màquina virtual, anomenada "Abans del virus".
 
-9. Es declina tota responsabilitat en el cas que aquesta informació sigui utilitzada amb finalitats il·lícites o delictives. També es declina tota responsabilitat en cas de destrucció total o parcial de dades per fer-ho en un entorn diferent de l'indicat.
+![](img/instancia.png)
 
-Feu una instantània o snapshot de la màquina virtual, anomenada "Abans del virus".
-
-Poseu alguns arxius reals (els podeu crear o baixar d'Internet)en una carpeta a dins de Documents:
+11. Poseu alguns arxius reals (els podeu crear o baixar d'Internet)en una carpeta a dins de Documents:
 
 Algun document de text (.txt)
 Algunes imatges (.jpg, .png)
 Algun documents de Word (.docx)
 Algun arxiu PDF (.pdf)
+
+![](img/documentswanacray.png)
+
 Un fitxer comprimit amb els arxius anteriors (.zip)
-Un fitxer compromit amb els arxius anteriors (.zip) però protegit amb contrasenya.
+Un fitxer compromit amb eDls arxius anteriors (.zip) però protegit amb contrasenya.
 Descarregueu de https://github.com/ytisf/theZoo el malware de tipus Ranswomware "WannaCry".
 
 Descomprimiu el .zip que està protegit amb contrasenya. L'antimalware no pot descomprimir el fitxer per mirar a dins perquè té contrasenya. La contrasenya és "infected". Un cop descomprimit, executeu el fitxer .exe de WannaCry i observeu què passa.
