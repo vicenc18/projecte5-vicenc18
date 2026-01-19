@@ -7,6 +7,8 @@
 
 1. Seguiu les instruccions de l'enllaç que trobareu a https://www.eicar.org per a obtenir una còpia del test EICAR.
 
+![protecio](img\protecio.png)
+
 Pot ser que hagueu de desactivar de forma temporal el detector del navegador web i el de Windows per a poder baixar-lo. Expliqueu com es fa.
 
 Activeu i comproveu si el detecta l'antimalware escollit.
@@ -20,6 +22,22 @@ Activeu i comproveu si el detecta l'antimalware escollit.
 ## Sistemes protecció Windows 11
 
 1. Quines proteccions incorporar Windows 11 a la seccció de "Protección antivirus y contra amenazas"?
+
+- Amenazas actuales
+
+![virus](img\virusprotecio.png)
+
+- Configuracion de antivirus y protecion contra amenazas 
+
+![confuguracio](img\configuracion.png)
+
+- Actualizaciones de protecion y contra amenazas
+
+![ultima](img\ultima.png)
+
+- Protección contra ransomware
+
+![protecio ramsoware](img\protecioramsoware.png)
 
 2. Quines opcions tenim a "Control de aplicaciones y navegador"?
 
