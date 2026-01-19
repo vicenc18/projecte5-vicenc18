@@ -40,8 +40,17 @@ Activeu i comproveu si el detecta l'antimalware escollit.
 ![protecio ramsoware](img\protecioramsoware.png)
 
 2. Quines opcions tenim a "Control de aplicaciones y navegador"?
+Control de aplicaciones y navegador protege el sistema frente a apps maliciosas y sitios web peligrosos, bloqueando descargas y ejecuciones inseguras.
+Ayuda a prevenir virus, phishing y ataques mientras navegas o instalas programas.
 
-3. Investigueu quines opcions específiques hi ha per la protecció contra ransomware a Windows 11.
+![](img\controldeaplicacions.png)
+
+
+3. Investigueu 
+La protección contra ransomware incluye acceso controlado a carpetas, que bloquea cambios no autorizados en archivos importantes.
+También permite recuperar datos con OneDrive mediante copias de seguridad si ocurre un ataque.
+
+![](img\PROYECIORAMSOMWARE.png)
 
 ## Prova pràctica de protecció contra Ransomware
 
@@ -49,7 +58,12 @@ Ara comprovarem el funcionacionament específic de les proteccions contra ransom
 
 1. Afegiu dins la carpeta "Documents" uns quants arxius TXT.
 
+![](img\DOCUMENTOS.png)
+
 2. Desactiveu, si està activada prèviament, la protecció contra ransomware.
+
+![](img\carpetaramsom.png)
+
 
 3. Descarregeu el fitxer de prova de ransomware de https://github.com/JoelGMSec/PSRansom. Es tracta d'un script de PowerShell que simula el comportament d'un ransomware. Com per defecte, Windows 11 restringeix l'execució d'scripts de PowerShell, haureu de canviar la política d'execució per permetre-ho, obrint una finestra de PowerShell com a administrador i executant la següent ordre:
 
