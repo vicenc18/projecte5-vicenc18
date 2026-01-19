@@ -148,3 +148,5 @@ Executeu l'executable WannaCry.
 Documenteu el missatge on es demana el rescat.
 Comproveu quins fitxers s'han xifrat. Afecta a tots els fitxers o només a alguns tipus?
 Un cop heu documentat aquesta part, apagueu la màquina virtual i torneu a l'instantània "Abans del virus".
+
+![](img/wnacrayejxecute.png)
