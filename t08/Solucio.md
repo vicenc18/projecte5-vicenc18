@@ -58,11 +58,11 @@ Ara comprovarem el funcionacionament específic de les proteccions contra ransom
 
 1. Afegiu dins la carpeta "Documents" uns quants arxius TXT.
 
-![]( img\DOCUMENTOS.png)
+![](img\DOCUMENTOS.png)
 
 2. Desactiveu, si està activada prèviament, la protecció contra ransomware.
 
-![]( img\carpetaramsom.png)
+![](img\carpetaramsom.png)
 
 
 3. Descarregeu el fitxer de prova de ransomware de https://github.com/JoelGMSec/PSRansom. Es tracta d'un script de PowerShell que simula el comportament d'un ransomware. Com per defecte, Windows 11 restringeix l'execució d'scripts de PowerShell, haureu de canviar la política d'execució per permetre-ho, obrint una finestra de PowerShell com a administrador i executant la següent ordre:
@@ -78,31 +78,31 @@ Set-ExecutionPolicy -ExecutionPolicy unrestricted
 4. Obre una consola de PoweShell a la carpeta on hagis descarregat l'script i executa'l amb la següent ordre:
 ``` bash
 .\PSRansom.ps1 -e C:\Users\%USERNAME%\Documents -s 127.0.0.1 -p 80 -x
+```
 
 
 
 
+## Atacs de Ransomware: WannaCry
 
-Atacs de Ransomware: WannaCry
+1. Llegiu la informació sobre WannaCry https://www.avg.com/es/signal/wannacry-ransomware-what-you-need-to-know i busqueu informació als enllaços dels projectes antiransomware per contestar les preguntes següents:
 
-Llegiu la informació sobre WannaCry https://www.avg.com/es/signal/wannacry-ransomware-what-you-need-to-know i busqueu informació als enllaços dels projectes antiransomware per contestar les preguntes següents:
+2. Expliqueu quins són els factors que fan que WannaCry es propagui tan ràpid. Expliqueu què vol dir.
 
-Expliqueu quins són els factors que fan que WannaCry es propagui tan ràpid. Expliqueu què vol dir.
+3. Quina vulnerabilitat en concret es fa servir? Busqueu el CVE associat. És molt greu?
 
-Quina vulnerabilitat en concret es fa servir? Busqueu el CVE associat. És molt greu?
+4. S'ha de pagar el rescat demanat? Per què? Busqueu per internet a veure si trobeu alguna empresa negociadora de rescats i com funciona. Això s'està fent, tot i que no se sol recomanar...
 
-S'ha de pagar el rescat demanat? Per què? Busqueu per internet a veure si trobeu alguna empresa negociadora de rescats i com funciona. Això s'està fent, tot i que no se sol recomanar...
+5. Quines mesures podem aplicar si volem PREVENIR un atac de Ransomware abans que passi?
 
-Quines mesures podem aplicar si volem PREVENIR un atac de Ransomware abans que passi?
+6. uines mesures aplicarem si JA HEM SOFERT un atac de WannaCry i no hem aplicat les mesures de prevenció o ho hem fet parcialment?
 
-Quines mesures aplicarem si JA HEM SOFERT un atac de WannaCry i no hem aplicat les mesures de prevenció o ho hem fet parcialment?
-
-Prova pràctica de WannaCry
+7. Prova pràctica de WannaCry
 ATENCIÓ: Els següent pas és perillós. Seguiu les instruccions de forma estricta.
 
-MAI ho heu de fer amb un equip de producció (màquina física o de la feina o de les pràctiques). En cas contrari, es pot incórrer en delictes tipificats al codi Penal amb penes que poden suposar multes i fins i tot presó.
+8. MAI ho heu de fer amb un equip de producció (màquina física o de la feina o de les pràctiques). En cas contrari, es pot incórrer en delictes tipificats al codi Penal amb penes que poden suposar multes i fins i tot presó.
 
-Es declina tota responsabilitat en el cas que aquesta informació sigui utilitzada amb finalitats il·lícites o delictives. També es declina tota responsabilitat en cas de destrucció total o parcial de dades per fer-ho en un entorn diferent de l'indicat.
+9. Es declina tota responsabilitat en el cas que aquesta informació sigui utilitzada amb finalitats il·lícites o delictives. També es declina tota responsabilitat en cas de destrucció total o parcial de dades per fer-ho en un entorn diferent de l'indicat.
 
 Feu una instantània o snapshot de la màquina virtual, anomenada "Abans del virus".
 
