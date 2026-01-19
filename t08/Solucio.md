@@ -94,17 +94,43 @@ Set-ExecutionPolicy -ExecutionPolicy unrestricted
 
 1. Llegiu la informació sobre WannaCry https://www.avg.com/es/signal/wannacry-ransomware-what-you-need-to-know i busqueu informació als enllaços dels projectes antiransomware per contestar les preguntes següents:
 
+
 2. Expliqueu quins són els factors que fan que WannaCry es propagui tan ràpid. Expliqueu què vol dir.
+WannaCry es va propagar molt ràpid perquè explotava una vulnerabilitat de Windows (SMB) i s’autoreplicava sense intervenció de l’usuari, escanejant altres ordinadors de la xarxa.
+Això vol dir que un sol ordinador infectat podia contagiar-ne molts altres automàticament en pocs minuts.
 
 3. Quina vulnerabilitat en concret es fa servir? Busqueu el CVE associat. És molt greu?
+La vulnerabilitat concreta que va aprofitar WannaCry per propagar-se tan ràpid és CVE-2017-0144, una fallada crítica en el protocol SMBv1 de Microsoft Windows que permet executar codi remotament enviant paquets maliciosos sense necessitat d’interacció de l’usuari.
 
 4. S'ha de pagar el rescat demanat? Per què? Busqueu per internet a veure si trobeu alguna empresa negociadora de rescats i com funciona. Això s'està fent, tot i que no se sol recomanar...
 
 5. Quines mesures podem aplicar si volem PREVENIR un atac de Ransomware abans que passi?
+Algunes mesures per prevenir un atac de ransomware són:
+
+- Mantenir el sistema operatiu i el programari sempre actualitzats amb - els últims pegats de seguretat.
+
+- Fer còpies de seguretat periòdiques i guardar-les fora de la xarxa o offline.
+
+- Utilitzar antivirus i tallafocs actualitzats.
+
+- Desactivar serveis innecessaris (com SMBv1) i limitar permisos d’usuari.
+
+- No obrir correus ni enllaços sospitosos i formar els usuaris en bones pràctiques de seguretat.
 
 6. uines mesures aplicarem si JA HEM SOFERT un atac de WannaCry i no hem aplicat les mesures de prevenció o ho hem fet parcialment?
+Aïllar immediatament els equips infectats desconnectant-los de la xarxa.
 
-7. Prova pràctica de WannaCry
+- No pagar el rescat, ja que no garanteix la recuperació de les dades.
+
+- Eliminar el malware i reinstal·lar el sistema des de zero si cal.
+
+- Restaurar les dades des de còpies de seguretat segures (si n’hi ha).
+
+- Aplicar el pegat de seguretat de Microsoft (CVE-2017-0144) i desactivar SMBv1.
+
+- Revisar la xarxa per detectar altres equips afectats i millorar les mesures de seguretat per evitar futurs atacs.
+
+## 7. Prova pràctica de WannaCry
 
 8. Feu una instantània o snapshot de la màquina virtual, anomenada "Abans del virus".
 
