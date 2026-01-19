@@ -62,7 +62,7 @@ Ara comprovarem el funcionacionament específic de les proteccions contra ransom
 
 2. Desactiveu, si està activada prèviament, la protecció contra ransomware.
 
-![] img\carpetaramsom.png)
+![](img\carpetaramsom.png)
 
 
 3. Descarregeu el fitxer de prova de ransomware de https://github.com/JoelGMSec/PSRansom. Es tracta d'un script de PowerShell que simula el comportament d'un ransomware. Com per defecte, Windows 11 restringeix l'execució d'scripts de PowerShell, haureu de canviar la política d'execució per permetre-ho, obrint una finestra de PowerShell com a administrador i executant la següent ordre:
