@@ -110,7 +110,7 @@ Set-ExecutionPolicy -ExecutionPolicy unrestricted
 
 ![](img/instancia.png)
 
-11. Poseu alguns arxius reals (els podeu crear o baixar d'Internet)en una carpeta a dins de Documents:
+9. Poseu alguns arxius reals (els podeu crear o baixar d'Internet)en una carpeta a dins de Documents:
 
 Algun document de text (.txt)
 Algunes imatges (.jpg, .png)
@@ -119,18 +119,27 @@ Algun arxiu PDF (.pdf)
 
 ![](img/documentswanacray.png)
 
-Un fitxer comprimit amb els arxius anteriors (.zip)
+ Un fitxer comprimit amb els arxius anteriors (.zip)
 Un fitxer compromit amb eDls arxius anteriors (.zip) però protegit amb contrasenya.
-Descarregueu de https://github.com/ytisf/theZoo el malware de tipus Ranswomware "WannaCry".
+
+11. Descarregueu de https://github.com/ytisf/theZoo el malware de tipus Ranswomware "WannaCry".
+
+
 
 Descomprimiu el .zip que està protegit amb contrasenya. L'antimalware no pot descomprimir el fitxer per mirar a dins perquè té contrasenya. La contrasenya és "infected". Un cop descomprimit, executeu el fitxer .exe de WannaCry i observeu què passa.
 
-Comproveu si el vostre antimalware el detecta i quin missatge dóna.
+![](img/wancray.png)
+
+12. Comproveu si el vostre antimalware el detecta i quin missatge dóna.
 Si no detecta res, mireu d'escanejar el fitxer amb botó dret, escollir opció analitzar.
 Aneu amb compte, és un virus real.
 Desactivem les proteccions en temps real de l'antimalware i tornem a descomprimir el fitxer.
 
-Finalment, envieu un fitxer .ZIP que NO tingui contrasenya (si no no es pot escanejar) a https://www.virustotal.com i https://opentip.kaspersky.com/ per comprovar quins antivirus dels que prova detecten virus al fitxer i què detecten. Indiqueu quins són els que no ho fan.
+![](img/image30.png)
+
+imatge de pau guerrero
+
+13. Finalment, envieu un fitxer .ZIP que NO tingui contrasenya (si no no es pot escanejar) a https://www.virustotal.com i https://opentip.kaspersky.com/ per comprovar quins antivirus dels que prova detecten virus al fitxer i què detecten. Indiqueu quins són els que no ho fan.
 
 Ara, a la màquina virtual, amb interfície de xarxa desconnectada, sense tenir cap carpeta compartida ni tenir Guest Additions:
 
