@@ -33,3 +33,12 @@ i haceptem les lisencies
 Selecionar el disc on voleu instalar Windows server
 
 ![](img/t04v6.png)
+
+![](img/t04v7.png)
+
+## final de la instalacio
+Domes cal esperar a que es completi la instalacio
+
+![](img/t04v8.png)
+
+## 2 configuracio del servidor
