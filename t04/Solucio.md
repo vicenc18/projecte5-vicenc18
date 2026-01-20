@@ -42,3 +42,29 @@ Domes cal esperar a que es completi la instalacio
 ![](img/t04v8.png)
 
 ## 2 configuracio del servidor
+### 2.1 Contrasenya dal administrador
+
+Afeigim una contrasenya al nostra usuari de adiminstrador, A de ser complexa 
+
+![](img/t04v9.png)
+
+### 2.2 canviar el nom 
+Es important cambiar el nom del equip per mes eficiencia
+
+![](img/t04v10.png)
+
+Li donem ha change
+
+![](img/t04v11.png)
+
+![](img/t04v12.png)
+
+### 2.3 Configuracio de xarxa
+El controlador de domini s' apuntar a ell mateix, 
+utlitzarem la ip (127.0.0.1)
+
+![](img/t04v13.png)
+
+![](img/t04v14.png)
+
+### 2.4 Intalacio del Rol Domine service
