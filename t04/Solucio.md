@@ -101,3 +101,16 @@ INSTALL..
 ## 2.5 Promoció a domain controller
 
 ![](img/t04v23.png)
+
+Entrem on diu Promote this server to a domain controller
+
+![](img/t04v24.png)
+
+I selecionem el tipus de instalacio que volem fer,
+Ens pregunta si volem afegir a undomini que ja existeix,
+
+![](img/t0425.png)
+
+Next...
+
+El nivell funcional de bosc i domini 
