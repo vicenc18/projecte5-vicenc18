@@ -68,3 +68,32 @@ utlitzarem la ip (127.0.0.1)
 ![](img/t04v14.png)
 
 ### 2.4 Intalacio del Rol Domine service
+Lo primer que ferem es entrar a la part de Manager, I entrar hon diu add Roles and features
+
+![](img/t04v15.png)
+
+Segint d'l apartatde installation Type
+
+![](img/t04v16.png)
+
+Next..
+
+![](img/t04v17.png)
+
+Permet Insta-lar roles de forma centrelitzada als diferents servidors del domini. 
+
+Next...
+
+![](img/t04v19.png)
+
+Next...
+
+![](img/t04v20.png)
+
+Confirmation...
+
+![](img/t04v21.png)
+
+INSTALL..
+
+![](IMG/T04V22.png)
