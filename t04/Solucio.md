@@ -97,3 +97,7 @@ Confirmation...
 INSTALL..
 
 ![](IMG/T04V22.png)
+
+## 2.5 Promoció a domain controller
+
+![](img/t04v23.png)
