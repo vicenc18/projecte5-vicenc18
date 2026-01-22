@@ -10,6 +10,10 @@ sudo apt install vsdtpd
 ![install ftp](img/installftp.png)
 
 ## 2 Fer una copia del archiu original
+
+Aquest comandament crea una còpia de seguretat del fitxer de configuració original de *vsftpd*.  
+Això permet restaurar la configuració anterior en cas que apareguin errors després de fer canvis.
+
 ``` bash
 cp /etc/vsftpd.conf /etc/vsftpd.bak
 ```
