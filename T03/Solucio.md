@@ -69,9 +69,9 @@ Serveix perquè els usuaris locals no puguin sortir de la seva carpeta quan es c
 ![/etc](img/etc.png)
 
 ## 8 Aspectes de seguretat
-Aquets servidor FTP continua utilitza transmissions insegures.
 
-Amb cualsavol analitzador de transit podem capturar els datagrames
+uest servidor FTP continua utilitzant transmissions insegures.  
+Amb qualsevol analitzador de trànsit és possible capturar els datagrames que es transmeten per la xarxa.
 
 ![wireshark](img/t03wireshark.png)
 
