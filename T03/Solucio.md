@@ -1,6 +1,6 @@
 # Solucio t03 FTP
 
-![ftp portada](img\ftp.png)
+![ftp portada](img/ftp.png)
 
 ## 1. instalacio del servei
 ``` bash
