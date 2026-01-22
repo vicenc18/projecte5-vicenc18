@@ -52,8 +52,8 @@ sudo apt ftp 192.168.56.101
 ![anonymous](img/anonymous.png)
 
 ## 6 ftp autinticat
-Configurem la via de l'accés FTP, dels usuaris, I auran de acedir amb les seves cradencials 
 
+Configurem la via d'accés FTP dels usuaris, que hauran d’accedir amb les seves pròpies credencials per iniciar sessió al servei.
 
 ![autenticat](img/autenticat.png)
 
