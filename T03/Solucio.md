@@ -67,3 +67,21 @@ Aquets servidor FTP continua utilitza transmissions insegures.
 Amb cualsavol analitzador de transit podem capturar els datagrames
 
 ![wireshark](img/t03wireshark.png)
+
+## 9 FTP segur
+L’FTP segur s’aconsegueix utilitzant TLS (FTPS) per evitar problemes de seguretat.
+Per a l’ús a Internet és recomanable un certificat signat per una autoritat certificadora (CA), tot i que per a proves es pot fer servir un certificat autosignat del servidor.
+Existeixen dos modes de FTPS:
+
+Implícit (obsolet), que utilitza habitualment el port 990.
+
+Explícit, que utilitza el port 21 i inicia TLS un cop establerta la connexió.
+
+Quan s’instal·la un servei que utilitza TLS, el sistema operatiu sovint genera automàticament unes claus autosignades (anomenades “snake‑oil”), que només serveixen per a proves i no són segures per a producció.
+
+També indica que s’ha de comprovar si existeix la clau privada del certificat, que habitualment es troba al directori:
+``` bash
+/etc/ssl/private
+```
+
+![](img/t03v12.png)
