@@ -59,7 +59,7 @@ Serveix perque els usuaris locals no puguin sortir de la seva carpeta en connect
 
 ![local user](img/localuser.png)
 
-![/etc](img\etc.png)
+![/etc](img/etc.png)
 
 ## 8 Aspectes de seguretat
 Aquets servidor FTP continua utilitza transmissions insegures.
