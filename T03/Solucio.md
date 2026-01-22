@@ -20,7 +20,9 @@ cp /etc/vsftpd.conf /etc/vsftpd.bak
 ![](img/cpftp.png)
 
 ## 3 Archiu de configuracio
-Habilitem la opcio anonymous_enable (yes) i reyniciem el servei
+
+Habilitem l’opció `anonymous_enable=yes` dins del fitxer de configuració de **vsftpd** per permetre l'accés anònim al servidor FTP.  
+Un cop modificat el fitxer, reiniciem el servei perquè els canvis tinguin efecte.
 
 ![yes](img/yes.png)
 
