@@ -61,7 +61,8 @@ Configurem la via de l'accés FTP, dels usuaris, I auran de acedir amb les seves
 
 ## 7 engavinat dels usuaris
 
-Serveix perque els usuaris locals no puguin sortir de la seva carpeta en connectar-se pel ftp
+
+Serveix perquè els usuaris locals no puguin sortir de la seva carpeta quan es connecten pel servei FTP, mantenint-los confinats dins del seu directori personal.
 
 ![local user](img/localuser.png)
 
