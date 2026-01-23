@@ -1,6 +1,6 @@
 # Solucio t03 FTP
 
-![ftp portada](img\ftp.png)
+![ftp portada](img/ftp.png)
 
 ## 1. instalacio del servei
 ``` bash
@@ -10,13 +10,19 @@ sudo apt install vsdtpd
 ![install ftp](img/installftp.png)
 
 ## 2 Fer una copia del archiu original
+
+Aquest comandament crea una còpia de seguretat del fitxer de configuració original de *vsftpd*.  
+Això permet restaurar la configuració anterior en cas que apareguin errors després de fer canvis.
+
 ``` bash
 cp /etc/vsftpd.conf /etc/vsftpd.bak
 ```
 ![](img/cpftp.png)
 
 ## 3 Archiu de configuracio
-Habilitem la opcio anonymous_enable (yes) i reyniciem el servei
+
+Habilitem l’opció `anonymous_enable=yes` dins del fitxer de configuració de **vsftpd** per permetre l'accés anònim al servidor FTP.  
+Un cop modificat el fitxer, reiniciem el servei perquè els canvis tinguin efecte.
 
 ![yes](img/yes.png)
 
@@ -46,8 +52,8 @@ sudo apt ftp 192.168.56.101
 ![anonymous](img/anonymous.png)
 
 ## 6 ftp autinticat
-Configurem la via de l'accés FTP, dels usuaris, I auran de acedir amb les seves cradencials 
 
+Configurem la via d'accés FTP dels usuaris, que hauran d’accedir amb les seves pròpies credencials per iniciar sessió al servei.
 
 ![autenticat](img/autenticat.png)
 
@@ -55,16 +61,17 @@ Configurem la via de l'accés FTP, dels usuaris, I auran de acedir amb les seves
 
 ## 7 engavinat dels usuaris
 
-Serveix perque els usuaris locals no puguin sortir de la seva carpeta en connectar-se pel ftp
+
+Serveix perquè els usuaris locals no puguin sortir de la seva carpeta quan es connecten pel servei FTP, mantenint-los confinats dins del seu directori personal.
 
 ![local user](img/localuser.png)
 
 ![/etc](img/etc.png)
 
 ## 8 Aspectes de seguretat
-Aquets servidor FTP continua utilitza transmissions insegures.
 
-Amb cualsavol analitzador de transit podem capturar els datagrames
+uest servidor FTP continua utilitzant transmissions insegures.  
+Amb qualsevol analitzador de trànsit és possible capturar els datagrames que es transmeten per la xarxa.
 
 ![wireshark](img/t03wireshark.png)
 
@@ -85,7 +92,10 @@ També indica que s’ha de comprovar si existeix la clau privada del certificat
 ```
 
 ![](img/t03v12.png)
+<<<<<<< HEAD
 
 Editem el archiu de configuracio " /etc/vsftpd.conf" i afegim les seguents lines de codi
 
 ![](img/t03v13.png)
+=======
+>>>>>>> 47b5161f84a266abd0e42dcb34f053bbfcf1ea4c
