@@ -92,10 +92,8 @@ També indica que s’ha de comprovar si existeix la clau privada del certificat
 ```
 
 ![](img/t03v12.png)
-<<<<<<< HEAD
 
 Editem el archiu de configuracio " /etc/vsftpd.conf" i afegim les seguents lines de codi
 
 ![](img/t03v13.png)
-=======
->>>>>>> 47b5161f84a266abd0e42dcb34f053bbfcf1ea4c
+
