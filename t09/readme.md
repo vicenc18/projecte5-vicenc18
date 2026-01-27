@@ -29,3 +29,15 @@ usuari/usuari
 ![](img/t09v6.png)
 
 ![](img/t09v7.png)
+
+Hara configurem la xarxa de la maquina :
+
+![](img/t09v8.png)
+
+![](img/t09v9.png)
+
+## 2 Escaneig de vulnerabilidad
+
+Lo primer sera hacedir via web 
+
+![](img/t09v10.png)
