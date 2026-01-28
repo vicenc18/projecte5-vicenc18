@@ -128,3 +128,21 @@ next...
 Per compatibilitat amb sistemes que encara usen NetBIOS (Samba3, XP en grup de treball...) assigna automàticament un nom NetBIOS al domini.
 
 ![](img/t04v27.png)
+
+next....
+
+![](img/t04v28.png)
+
+next..
+
+Ens mostra un resum de les configuracions triades i dóna l’opció de crear un script PowerShell amb elles. Això és molt útil per replicar configuracions.
+
+![](img/T04V29.png)
+
+![](img/t04v30.png)
+
+Instala..
+
+![](img/t04v32.png)
+
+Un cop acabada la instal·lació, la màquina s’ha de reiniciar i ens demanarà loguejar-nos com Administrator del domini
