@@ -172,4 +172,32 @@ Per millorar velocitat i reduir quantitat de consultes, configurarem un reenviad
 ![](img/t04v38.png)
 
 
-![]()
+![](img/t04v39.png)
+
+## 2.8 Eines de gesto
+Per gestionar el nostre servidor Windows Server disposem de diverses opcions:
+
+Server Manager
+
+Windows Admin Center
+
+PowerShell
+
+### Server Manager
+
+Pantalla de gestió central, permet visualitzar mètriques, accedir a les eines.
+En cas de tenir diversos servidors dins el domini, es poden administrar directament des d’una consola de Server Manager única.
+ És l’eina amb la que treballarem nosaltres habitualment.
+
+ ![](img/t04v34.png)
+
+ ### Windows Admin Center
+Nova eina de Microsoft per gestionar elements del Directori Actiu des d’un navegador.
+Es pot utilitzar tant des del servidor com des d’un client.
+
+![](img/t04v40.png)
+
+ Abans de res, cal baixar-lo a l’equip des del qual vulguis administrar.
+Es tracta d’un paquet msi que s’haurà d’instal·lar i després s’executarà en el navegador.
+
+### powershell
