@@ -146,3 +146,23 @@ Instala..
 ![](img/t04v32.png)
 
 Un cop acabada la instal·lació, la màquina s’ha de reiniciar i ens demanarà loguejar-nos com Administrator del domini
+
+![](img/t04v33.png)
+
+![](img/t04v34.png)
+
+## 2.6 Zona horaria 
+
+ Cal ajustar la zona horària perquè per defecte posa horari Costa Oest d’Estats Units.
+ Un cop fet això, ajusteau l’hora correcta.
+
+
+![](img/t04v35.png)
+
+
+![](img/t04v36.png)
+
+## 2.7 Configuracio dns 
+
+l nostre controlador de domini fa de servidor DNS, per tant, pot fer consultes directes a Internet.
+Per millorar velocitat i reduir quantitat de consultes, configurarem un reenviador per totes les adreces de Internet.
