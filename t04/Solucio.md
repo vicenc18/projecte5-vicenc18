@@ -114,3 +114,17 @@ Ens pregunta si volem afegir a undomini que ja existeix,
 Next...
 
 El nivell funcional de bosc i domini 
+
+![](img/P@ssword.png)
+
+next...
+
+Com utilitza DNS i no detecta cap operatiu que contingui el domini triat, ens avisa i procedirà a instal·lar aquest rol al DC. Cliquem directament a Next
+
+![](img/t04v26.png)
+
+next...
+
+Per compatibilitat amb sistemes que encara usen NetBIOS (Samba3, XP en grup de treball...) assigna automàticament un nom NetBIOS al domini.
+
+![](img/t04v27.png)
