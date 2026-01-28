@@ -201,3 +201,7 @@ Es pot utilitzar tant des del servidor com des d’un client.
 Es tracta d’un paquet msi que s’haurà d’instal·lar i després s’executarà en el navegador.
 
 ### powershell
+Totes les accions relatives tant al servidor com a la gestió del Directori Actiu es poden fer mitjançant cmd-lets de PowerShell.
+En un client es pot instal·lar el mòdul de PowerShell per Active Directory per fer la gestió remota.
+El principal avantatge es que permet automatitzar tasques i gestions mitjançant scripts.”
+Si quieres que siga, que compile todo en un solo documento o que lo traduzca, ¡te lo preparo encantado!
