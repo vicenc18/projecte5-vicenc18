@@ -97,3 +97,8 @@ Editem el archiu de configuracio " /etc/vsftpd.conf" i afegim les seguents lines
 
 ![](img/t03v13.png)
 
+Es comprova com no es permet una connexió ftp no segura:
+
+![](img/t03v14.png)
+
+## 10 Hacemptacio del certificat
