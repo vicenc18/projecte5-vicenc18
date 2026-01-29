@@ -114,4 +114,20 @@ login..
 
 ![](img/t03v16.png)
 
+# Solucio sftp
+
+## 1 Maquines
+
+Utilitzarem las maquinnes de l' anterior activitat
+- ubuntu server 
+- zorin OS (client)
+
+## 2 que es? 
+
+- És un protocol de transferència de fitxers que es basa en el protocol SSH que serveix per fer connexions de terminal remot de forma segura.
+
+- És un protocol que ha guanya força popularitat per la transferència d’arxius.
+
+- Utilitza el port 22 del servidor (propi del protocol SSH) per realitzar tota la comunicació.
+
 
