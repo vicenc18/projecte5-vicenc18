@@ -102,3 +102,16 @@ Es comprova com no es permet una connexió ftp no segura:
 ![](img/t03v14.png)
 
 ## 10 Hacemptacio del certificat
+La comanda FTP de PowerShell no admet connexions TLS (Microsoft aposta per sftp com alternativa).
+• Opcions:
+  Fer un script PowerShell que usi la funció de .NET FtpWebRequest.
+  Usar un client extern com Filezilla o WinSCP. Si no hi ha cap instal·lat, es pot fer servir una versió portable.
+## 10.1 comproba la conexio
+
+![](img/t03v15.png)
+
+login..
+
+![](img/t03v16.png)
+
+
