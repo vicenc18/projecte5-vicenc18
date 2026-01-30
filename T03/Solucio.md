@@ -130,4 +130,16 @@ Utilitzarem las maquinnes de l' anterior activitat
 
 - Utilitza el port 22 del servidor (propi del protocol SSH) per realitzar tota la comunicació.
 
+## 3 Instal-acio 
+- Podem utilitzar el mateix servidor FTP de l’activitat anterior o crear-ne un de nou de característiques similars.
 
+- El primer pas, serà instal·lar el paquet corresponent al servidor SSH cas que no estigui instal·lat prèviament.
+
+![](img/t03v17.png)
+
+### 3.1 prova de funcionament
+Podeu utilitzar un client com Filezilla o directament el terminal tant en Windows (PowerShell) com Linux.
+
+![](img/t03v18.png)
+
+![](img/t03v19.png)
