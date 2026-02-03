@@ -73,4 +73,8 @@ Tmabe em de afegir un fitxer ssh, es inportant afegir una contraseña i marcar l
 
 ![](img/t09v18.png)
 
-Hara crehem una tasca nova, jo li poso el nom del afritio (linux vulnerable 4)
+Hara crehem una tasca nova, jo li poso el nom del afritio (linux vulnerable 4).
+
+A qui haurem de marcar com a obextiu el amritio de avasns
+
+![](img/t09v19.png)
