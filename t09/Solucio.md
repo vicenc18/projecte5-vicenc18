@@ -78,3 +78,7 @@ Hara crehem una tasca nova, jo li poso el nom del afritio (linux vulnerable 4).
 A qui haurem de marcar com a obextiu el amritio de avasns
 
 ![](img/t09v19.png)
+
+Quan tinguem la tasca feta la iniciem, pot tardar bastant de temps 
+
+![]()
