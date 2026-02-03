@@ -70,3 +70,7 @@ Hara em de fer el obejtiu jo li posare linux vulnerable 4, important que poser d
 Tmabe em de afegir un fitxer ssh, es inportant afegir una contraseña i marcar los dues opcions com a NO.
 
 ![](img/t09v16.png)
+
+![](img/t09v18.png)
+
+Hara crehem una tasca nova, jo li poso el nom del afritio (linux vulnerable 4)
