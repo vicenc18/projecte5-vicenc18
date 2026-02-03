@@ -31,19 +31,32 @@ Hara configurarem OpenVas entrant a la maquina i configurarle, entrem amb admin/
 
 ![](img/t09v6.png)
 
-Quan estem dintre haurem de afegir un usuari (usuari/usuari)
+Quan estem dintre haurem de afegir un usuari (usuari/usuari).
 
 ![](img/t09v7.png)
 
-Despues hem de accedir a la configuració de networks i activar el ipV4 
+Despues hem de accedir a la configuració de networks i activar el ipV4. 
 
 ![](img/t09v8.png)
 
 ![](img/t09v9.png)
 
-Molt importrant quedarnos amb la ip 
+Molt importrant quedarnos amb la ip. 
 
 ## 4 Scan
 
-Lo primer sera accedir via web a Openvas amb la ip de la maquina anterior 
+Lo primer sera accedir via web a Openvas amb la ip de la maquina anterior. 
 
+Entrarem amb el usuari que hem afegit avans
+
+![](img/t09v10.png)
+
+Quan estem dintre Veurem aquest menu 
+
+![](img/t09v11.png)
+
+Haurem de entrar  a l' apartat d'anfritions en Actius.
+
+![](img/t09v13.png)
+
+Alla Afegim un nou amfritio, on haurem deposar un nom y la ip del metasplitable uqe ens hem guardat avans.
