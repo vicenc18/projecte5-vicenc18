@@ -60,3 +60,13 @@ Haurem de entrar  a l' apartat d'anfritions en Actius.
 ![](img/t09v13.png)
 
 Alla Afegim un nou amfritio, on haurem deposar un nom y la ip del metasplitable uqe ens hem guardat avans.
+
+![](img/t09v14.png)
+
+Hara em de fer el obejtiu jo li posare linux vulnerable 4, important que poser dels recursos del ambritio,
+
+![](img/t09v15.png)
+
+Tmabe em de afegir un fitxer ssh, es inportant afegir una contraseña i marcar los dues opcions com a NO.
+
+![](img/t09v16.png)
