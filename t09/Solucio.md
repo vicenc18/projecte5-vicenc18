@@ -81,4 +81,18 @@ A qui haurem de marcar com a obextiu el amritio de avasns
 
 Quan tinguem la tasca feta la iniciem, pot tardar bastant de temps 
 
-![]()
+
+![](img/t09v20.png)
+
+![](img/t09v21.png)
+
+![](img/t09v12.png)
+
+## 5 Informa 
+
+![](img/t09v22.png)
+
+![](img/t09v23.png)
+
+![](img/t09v24.png)
+
