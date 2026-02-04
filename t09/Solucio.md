@@ -89,6 +89,9 @@ Quan tinguem la tasca feta la iniciem, pot tardar bastant de temps
 ![](img/t09v12.png)
 
 ## 5 Informa 
+L’escaneig del sistema 10.0.2.10 ha detectat vulnerabilitats crítiques que posen en risc alt la seguretat. S’han identificat serveis insegurs en execució, una possible backdoor (Ingreslock), vulnerabilitats d’execució remota de comandes, i un sistema operatiu fora de suport (EOL). El servidor també presenta diversos ports crítics oberts, incrementant l’exposició.
+En conjunt, el risc és molt elevat i es recomana actuar de manera immediata: tancar serveis i ports insegurs, actualitzar el sistema operatiu, aplicar pegats i comprovar si hi ha hagut compromís del sistema.
+
 
 ![](img/t09v22.png)
 
@@ -96,3 +99,13 @@ Quan tinguem la tasca feta la iniciem, pot tardar bastant de temps
 
 ![](img/t09v24.png)
 
+## 6 vulnerabilitats 
+
+1. Possible Backdoor: Ingreslock (port 1524/tcp)
+Indica la presència d’un servei associat habitualment a accessos il·legítims. Pot significar que el sistema hagi estat compromès o que un atacant hagi deixat una porta d’entrada.
+
+2. TWiki < 4.2.4 – Execució remota de comandes
+Una vulnerabilitat que permet a un atacant executar comandes al servidor de forma remota a través de la web, prenent control total del sistema.
+
+3. Sistema Operatiu en Fi de Vida (EOL)
+El sistema operatiu ja no rep actualitzacions de seguretat ni pegats. Qualsevol vulnerabilitat coneguda queda exposada i fàcilment explotable.
